@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.priya.priya1.org.example.priya.priya1.MainActivity">
+
+    <TextView
+        android:id="@+id/choose_alerts_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/alerts_dropdown"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/alerts_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choose_alerts_text"
+        android:gravity="left"
+        android:padding="5dip"
+        android:prompt="@string/alerts_dropdown"
+        android:textColor="#FF0000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/choose_vill_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/alerts_spinner"
+        android:layout_marginTop="24dp"
+        android:text="@string/villages_dropdown"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/villages_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choose_vill_text"
+        android:layout_marginTop="12dp"
+        android:gravity="left"
+        android:padding="5dip"
+        android:text="@string/villages_dropdown"
+        android:textColor="#FF0000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/choose_freq_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/villages_spinner"
+        android:layout_marginTop="20dp"
+        android:text="@string/freq_dropdown"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/freq_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/choose_freq_text"
+        android:gravity="left"
+        android:padding="5dip"
+        android:text="@string/freq_dropdown"
+        android:textColor="#FF0000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/choose_reps_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/freq_spinner"
+        android:layout_marginTop="20dp"
+        android:text="@string/repeats_dropdown"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/repeat_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/choose_reps_text"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="left"
+        android:padding="5dip"
+        android:text="@string/repeats_dropdown"
+        android:textColor="#FF0000"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/repeat_spinner"
+        android:layout_marginTop="34dp"
+        android:text="@string/send_alert" />
+
+</RelativeLayout>

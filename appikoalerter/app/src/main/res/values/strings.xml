@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AppikoAlerter</string>
+
+
+    <string name="welcome_msg">Appiko Alerter : Send warning to villages</string>
+
+    <string name="alerts_dropdown">Choose Alert</string>
+    <string name="villages_dropdown">Choose Villages to Alert</string>
+    <string name="freq_dropdown">Frequency of Alerts</string>
+    <string name="repeats_dropdown">Number of times to repeat</string>
+    <string name="send_alert">Send Alerts</string>
+
+    <string-array name="alerts_array">
+        <item>Elephants Nearby</item>
+        <item>Dangerous Elephant Nearby</item>
+        <item>Forest Fire</item>
+        <item>Tiger Nearby</item>
+    </string-array>
+
+    <string-array name="villages_array">
+        <item>Village 1</item>
+        <item>Village 2</item>
+        <item>Village 3</item>
+    </string-array>
+
+    <string-array name="freq_array">
+        <item>Every 2 mins</item>
+        <item>Every 5 mins</item>
+        <item>Every 10 mins</item>
+    </string-array>
+
+    <string-array name="repeat_array">
+        <item>Repeat twice</item>
+        <item>Repeat thrice</item>
+        <item>Repeat 5 times</item>
+    </string-array>
+
+</resources>
